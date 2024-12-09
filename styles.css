@@ -1,0 +1,54 @@
+@font-face {
+  font-family: fontGeist;
+  src: url("assets/fonts/Geist-Regular.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: fontGeist;
+  font-weight: bold;
+}
+
+#body {
+  height: 100lvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#game-pad td {
+  width: 70px;
+  height: 70px;
+  border: 1px solid black;
+  cursor: pointer;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#result {
+  margin-top: 0;
+  font-size: 30px;
+  color: #c70039;
+}
+
+#controls {
+  text-align: center;
+}
+
+#controls button {
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #c70039;
+  color: #daa520;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#controls button:active {
+  padding: 3px 13px;
+}
